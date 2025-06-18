@@ -1,0 +1,38 @@
+# Python cache and virtual environments
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+*.log
+*.csv
+*.DS_Store
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# Streamlit specific
+/.streamlit/
+/secrets.toml
+
+# IDEs and Editors
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# OS generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Logs and temporary files
+/logs/
+/tmp/
+/temp/
